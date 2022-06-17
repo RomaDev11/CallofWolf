@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Call of Wolf</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_id">416966206995507</string>
+    <string name="facebook_token">LByzI7nk4zlvkLztQEWC8O0CQlE</string>
+    <string name="onesignal_id">efc1f270-dc4c-4667-9c5a-8c6a9564b73f</string>
+    <string name="appsfluer_id">CkUaKFGS53mjLVsdop7EPA</string>
+    <string name="title_activity_ggame">GGAmeAct</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

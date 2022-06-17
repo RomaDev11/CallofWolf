@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/web_wolf"
+    app:startDestination="@id/startWolf">
+
+    <fragment
+        android:id="@+id/startWolf"
+        android:name="com.whats.webWolf.StartWolf"
+        android:label="fragment_start_wolf"
+        tools:layout="@layout/fragment_start_wolf" >
+        <action
+            android:id="@+id/action_startWolf_to_webWolf2"
+            app:destination="@id/webWolf2" />
+    </fragment>
+    <fragment
+        android:id="@+id/webWolf2"
+        android:name="com.whats.webWolf.WebWolf"
+        android:label="fragment_web_wolf"
+        tools:layout="@layout/fragment_web_wolf" />
+</navigation>

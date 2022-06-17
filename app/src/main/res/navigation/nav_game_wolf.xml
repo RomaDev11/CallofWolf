@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_game_wolf"
+    app:startDestination="@id/startWolf2">
+
+    <fragment
+        android:id="@+id/startWolf2"
+        android:name="com.whats.startWolf"
+        android:label="fragment_start_wolf2"
+        tools:layout="@layout/fragment_start_wolf2" >
+        <action
+            android:id="@+id/action_startWolf2_to_gameWolf"
+            app:destination="@id/gameWolf" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameWolf"
+        android:name="com.whats.gameWolf"
+        android:label="fragment_game_wolf"
+        tools:layout="@layout/fragment_game_wolf" >
+        <action
+            android:id="@+id/action_gameWolf_to_startWolf2"
+            app:destination="@id/startWolf2" />
+        <action
+            android:id="@+id/action_gameWolf_to_gameWolf2"
+            app:destination="@id/gameWolf2" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameWolf2"
+        android:name="com.whats.gameWolf2"
+        android:label="fragment_game_wolf2"
+        tools:layout="@layout/fragment_game_wolf2" >
+        <action
+            android:id="@+id/action_gameWolf2_to_gameWolf"
+            app:destination="@id/gameWolf" />
+    </fragment>
+</navigation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/cherv/AndroidStudioProject/CallofWolf/app/src/main/res/drawable/prog.xml" value="0.141" />
+        <entry key="..\:/Users/cherv/AndroidStudioProject/CallofWolf/app/src/main/res/layout/activity_ffgame_actr.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/cherv/AndroidStudioProject/CallofWolf/app/src/main/res/layout/activity_main.xml" value="0.13177083333333334" />
+        <entry key="..\:/Users/cherv/AndroidStudioProject/CallofWolf/app/src/main/res/layout/fragment_game_wolf.xml" value="0.152" />
+        <entry key="..\:/Users/cherv/AndroidStudioProject/CallofWolf/app/src/main/res/layout/fragment_game_wolf2.xml" value="0.2" />
+        <entry key="..\:/Users/cherv/AndroidStudioProject/CallofWolf/app/src/main/res/layout/fragment_start_wolf.xml" value="0.136" />
+        <entry key="..\:/Users/cherv/AndroidStudioProject/CallofWolf/app/src/main/res/layout/fragment_start_wolf2.xml" value="0.176" />
+        <entry key="..\:/Users/cherv/AndroidStudioProject/CallofWolf/app/src/main/res/layout/fragment_web_wolf.xml" value="0.13177083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
